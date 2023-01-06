@@ -6,4 +6,25 @@ header {
   font-size: 25px;
   height: 150px;
   background-color: rgb(8, 187, 247);
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 100px;
+  color: white;
+  margin: 20px 0 0 20px;
+  padding: 0;
+}
+.liste_navigation {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  color: white;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+li {
+  margin: 0 100px 0 0;
 }
